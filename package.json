@@ -4,7 +4,7 @@
   "description": "A simple JSON backend using json-server",
   "main": "server.js",
   "scripts": {
-    "start": "json-server db.json --port 8080"
+  "start": "json-server db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.0"
