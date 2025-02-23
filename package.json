@@ -1,19 +1,12 @@
 {
-  "name": "backend",
+  "name": "json-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple JSON backend using json-server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "json-server --watch db.json --port 8080"
+    "start": "json-server db.json --port 8080"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "json-server": "^1.0.0-beta.3",
-    "nodemon": "^3.1.9"
+    "json-server": "^0.17.0"
   }
 }
